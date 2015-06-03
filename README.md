@@ -1,8 +1,10 @@
-# Notes of a Front-End Developer
+# Anotações de um Dev Front-End
 
-This repository aims to gather notes and referrals about Front End , however also includes a number of other cool stuff like Back- End, CLI Tools, UX, etc...
+![cover](img/cover.jpg)
 
-> To try keep the order, we have a [simple guide.](contributing.md).
+Este repositório tem o objetivo de reunir de uma forma organizada, anotações e referências sobre meus estudos no mundo Front-End, porém irei incluir varias outras áreas relacionadas como Back-End, CLI Tolls, UX, etc...
+
+> Para tentar manter a ordem,  temos um [guia de contribuição](contributing.md).
 
 - [Front-End](#front-end)
 - [Back-End](#back-end)
@@ -54,7 +56,7 @@ This repository aims to gather notes and referrals about Front End , however als
     - BEM
     - DRY
   - Layout
-    - Flexbox 
+    - Flexbox
   - Preprocessors
     - Sass
       - Libs and Framewoks
@@ -191,7 +193,7 @@ This repository aims to gather notes and referrals about Front End , however als
   - Device Orientation
 - **Multimedia**
   - Animation Timing
-  - Web Audio 
+  - Web Audio
 - **3D, Graphics & Effects**
   - Canvas
   - WebGL
@@ -285,8 +287,8 @@ This repository aims to gather notes and referrals about Front End , however als
 ### Agile
   - vazio
 
-### Inspiration
+### Inspiração
 [Eric Douglas - dev log](https://github.com/ericdouglas/dev-log)
 
-### License
+### Licença
 [MIT Licence](licence.md) © Afonso Pacifer
