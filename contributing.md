@@ -1,7 +1,22 @@
-# Commit Guide
+#Contributing Guide
 
+- [Commits](#commits-rules)
 - [Summary](#summary-rules)
 - [Annotation](#annotation-example)
+
+##Commits Rules
+
+For add a new item in summary:
+
+    git commit -m "note-name added"
+
+For create a note file in source folder:
+
+    git commit -m "note-name crated"
+
+For update a note file:
+
+    git commit -m "note-name update"
 
 ##Summary Rules
 In progress
