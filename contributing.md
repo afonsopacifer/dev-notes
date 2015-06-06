@@ -33,9 +33,9 @@ Example content
 
 ###References
 
-- [[Talk] - Talk Name - Author - Event](#)
-- [[Slides] - Talk Name - Author - Event](#)
-- [[Screencast] - Name - Author](#)
-- [[Podcast] - Name - EP - Author](#)
-- [[Book] - Book name - Author](#)
-- [[Article] - Title - Website - Author](#)
+- [[Talk] - Talk Name - Author - Event - language](#)
+- [[Slides] - Talk Name - Author - Event - language](#)
+- [[Screencast] - Name - Author - language](#)
+- [[Podcast] - Name - EP - Author - language](#)
+- [[Book] - Book name - Author - language](#)
+- [[Article] - Title - Website - Author - language](#)
