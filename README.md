@@ -164,14 +164,13 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
   - Middleman
   - Octopress
 - **WPO**
-  - Single Pages Apps
-    - SPA
-    - Frameworks
-  - Technics
+  - [Web Performance Optimization](source/web-performance-optimization.md)
+  - More Technics
     - Lazy loading
-  - Tools
-    - Yslow
-    - PageSpeed
+  - SPA
+    - Single Pages Apps
+    - Frameworks
+      - SennaJS
 - **Performance & Integration (API)**
   - Web Workers
   - History API

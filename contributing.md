@@ -26,7 +26,7 @@ Example content
 - [Tool name](#) - Tool Description
 
 ###Projects
-- [Project name](#) - Project Description
+- [Project name](#) - Project Description - language
 
 ###People To Follow
 - [People twitter](#)
