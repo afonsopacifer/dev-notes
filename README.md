@@ -261,7 +261,7 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
 
 ### Workflow
 - **Text editors**
-  - VIM
+  - [VIM](source/vim.md)
   - Sublime Text
   - Atom
 - **Version control**
