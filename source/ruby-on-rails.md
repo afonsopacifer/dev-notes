@@ -3,6 +3,8 @@
 
 - [Tools](#tools)
 - [Gems](#gems)
+- [Articles](#articles)
+- [People To Follow](#people-to-follow)
 - [References](#references)
 
 ### Tools
@@ -13,6 +15,9 @@
 - [devise](https://github.com/plataformatec/devise) - Flexible authentication solution for Rails with Warden.
 - [Paperclip](https://github.com/thoughtbot/paperclip) - Easy file attachment management for ActiveRecord
 - [Ransack](https://github.com/activerecord-hackery/ransack) - Object-based searching.
+
+### People To Follow
+- [AkitaOnRails](http://www.akitaonrails.com/)
 
 ### References
 - [[Interactive Tutorial] - Rails for Zombies - Code School - EN]()
