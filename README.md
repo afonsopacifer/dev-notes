@@ -17,7 +17,7 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
 - [Games](#games)
 - [CLI Tools](#cli-tools)
 - [Infrastructure](#infrastructure)
-- [Arduino](#arduino)
+- [Hardware](#hardware)
 - [Workflow](#workflow)
 - [Agile](#agile)
 
@@ -206,6 +206,8 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
 - **Best Practices**
   - Code Style
 
+<hr>
+
 ### Back-End
 - **NodeJS**
   - NodeJS
@@ -221,11 +223,15 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
     - Django
     - Tornado
 
+<hr>
+
 ### Data Bases (server side)
 - **SQL**
   - MySQL
 - **NoSQL**
   - MongoDB
+
+<hr>
 
 ### Full Stack
 - **MEAN**
@@ -235,13 +241,19 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
 - **MVC**
 - **REST**
 
+<hr>
+
 ### Programming Paradigms
 - **Object Orientation**
 - **Functional Programming**
 - **Orientation events**
 
+<hr>
+
 ### Design and UX
 - vazio
+
+<hr>
 
 ### Mobile Apps
 - **Phonegap**
@@ -249,19 +261,29 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
 - **FirefoxOS**
 - **Ionic**
 
+<hr>
+
 ### Games
 - vazio
+
+<hr>
 
 ### CLI Tools
 - **Shell Script**
 - **NodeJS**
 
+<hr>
+
 ### Infrastructure
 - vazio
 
-### Arduino
+<hr>
+
+### Hardware
 - **Frameworks**
   - Johnny Five
+
+<hr>
 
 ### Workflow
 - **Text editors**
@@ -289,11 +311,15 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
 - **Scaffolding**
   - Yeoman
 
+<hr>
+
 ### Agile
   - vazio
+
+<hr>
 
 ### Inspiração
 [Eric Douglas - dev log](https://github.com/ericdouglas/dev-log)
 
 ### Licença
-[MIT Licence](licence.md) © Afonso Pacifer
+[MIT License](license.md) © [Afonso Pacifer](http://afonsopacifer.com/)

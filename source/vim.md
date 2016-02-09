@@ -1,14 +1,8 @@
 # VIM - VI IMproved
 > Description
 
-- [Notes](#notes)
-- [Tools](#tools)
 - [Projects](#projects)
 - [References](#references)
-
-### Notes
-
-#### Vazio
 
 ### Projects
 - [Vim Awesome](http://vimawesome.com/)

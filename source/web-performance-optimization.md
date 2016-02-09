@@ -1,19 +1,8 @@
-# Ruby - Ruby on Rails
+# Web Performance Optimization
 > Description
 
-- [Notes](#notes)
-- [Tools](#tools)
-- [Projects](#projects)
 - [People To Follow](#people-to-follow)
 - [References](#references)
-
-### Notes
-
-#### Vazio
-
-### Tools
-
-### Projects
 
 ### People To Follow
 - [Marcel Duran](https://twitter.com/marcelduran)
@@ -22,7 +11,6 @@
 - [Nicholas C. Zakas](https://twitter.com/slicknet)
 
 ### References
-- [[Slides] - Talk Name - Author - Event - language](#)
 - [[Screencast] - Web Performance Optimization - Webinar/Devcast - pt-br](https://www.youtube.com/watch?v=OnCHjU_eAkE)
 - [[Screencast] - Web Performance - Meetup Online - pt-br](https://www.youtube.com/watch?v=ZHZemt32SNw&index=6&list=PLW8ZinFjbeuGV24kJqU7Pc_QcugjHDUgL)
 - [[Podcast] - ZOFE #5 - Perca peso. Pergunte-me como - pt-br](http://zofe.com.br/posts/zofe-5-perca-peso-pergunte-me-como/)
