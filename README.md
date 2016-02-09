@@ -59,14 +59,18 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
     - Flexbox
   - Preprocessors
     - Sass
-      - Libs and Framewoks
+      - Libs and Frameworks
         - Compass
         - Bourbon
         - Susy
         - Neat
     - Stylus
+      - Libs and Frameworks
+        - Jeet
+        - Rupture
+        - Kouto Swiss
   - Post-processors
-    - postcss
+    - Postcss
   - Performance
   - CSS Level 4
 - **Behavior**
