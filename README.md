@@ -214,7 +214,7 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
   - Frameworks
     - Express
 - **Ruby**
-  - Ruby
+  - [Ruby](source/ruby.md)
   - Frameworks
     - [Ruby on Rails](source/ruby-on-rails.md)
 - **Python**
