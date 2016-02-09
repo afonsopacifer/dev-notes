@@ -12,7 +12,7 @@ For add a new item in summary:
 
 For create a note file in source folder:
 
-    git commit -m "note-name crated"
+    git commit -m "note-name created"
 
 For update a note file:
 

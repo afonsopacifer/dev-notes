@@ -1,4 +1,4 @@
-# WPO - Web Performance Optimization
+# Ruby - Ruby on Rails
 > Description
 
 - [Notes](#notes)
@@ -12,14 +12,8 @@
 #### Vazio
 
 ### Tools
-- [PageSpeed](https://developers.google.com/speed/pagespeed/) - The PageSpeed tools analyze and optimize your site following web best practices.
-- [YSlow](http://yslow.org/) - YSlow analyzes web pages and why they're slow based on Yahoo!'s rules for high performance web sites
-- [WebPageTest](http://www.webpagetest.org/) - WebPagetest is an open source project that is primarily being developed and supported by Google as part of our efforts to make the web faster.
 
 ### Projects
-- [Browser Diet](http://browserdiet.com/pt/) - Como perder peso no browser - pt-br
-- [Awesome WPO](https://github.com/davidsonfellipe/awesome-wpo) - A curated list of Web Performance Optimization - en
-- [Performance Calendar](http://calendar.perfplanet.com/2014/) - The speed geek's favorite time of the year - en
 
 ### People To Follow
 - [Marcel Duran](https://twitter.com/marcelduran)

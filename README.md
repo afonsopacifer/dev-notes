@@ -210,7 +210,7 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
 - **Ruby**
   - Ruby
   - Frameworks
-    - Ruby on Rails
+    - [Ruby on Rails](source/ruby-on-rails.md)
 - **Python**
   - Python
   - Frameworks  
