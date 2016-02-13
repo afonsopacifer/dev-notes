@@ -16,6 +16,9 @@
 - [Paperclip](https://github.com/thoughtbot/paperclip) - Easy file attachment management for ActiveRecord
 - [Ransack](https://github.com/activerecord-hackery/ransack) - Object-based searching.
 
+### Articles
+- [[Build a contact form with Rails 4.2] - Stephen Murdoch - EN](http://www.murdo.ch/posts/build-a-contact-form-with-rails-4-2)
+
 ### People To Follow
 - [AkitaOnRails](http://www.akitaonrails.com/)
 
