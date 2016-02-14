@@ -15,6 +15,7 @@
 - [devise](https://github.com/plataformatec/devise) - Flexible authentication solution for Rails with Warden.
 - [Paperclip](https://github.com/thoughtbot/paperclip) - Easy file attachment management for ActiveRecord
 - [Ransack](https://github.com/activerecord-hackery/ransack) - Object-based searching.
+- [friendly_id](https://github.com/norman/friendly_id) - FriendlyId is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord.
 
 ### Articles
 - [[Build a contact form with Rails 4.2] - Stephen Murdoch - EN](http://www.murdo.ch/posts/build-a-contact-form-with-rails-4-2)
