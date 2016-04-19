@@ -79,8 +79,6 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
   - Best practices
     - Conventions
   - Patterns
-  - Library
-    - [ReactJS](source/reactjs.md)
   - Frameworks mv*
     - AngularJS
       - 1x
@@ -88,6 +86,7 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
     - EmberJS
     - BackboneJS
   - Libs
+    - [ReactJS](source/reactjs.md)
     - Jquery
     - hammer
     - zepto
