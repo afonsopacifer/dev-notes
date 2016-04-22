@@ -1,9 +1,12 @@
 # ReactJS
 [Facebook Docs](http://facebook.github.io/react/docs/getting-started.html) / [Awesome React](https://github.com/enaqx/awesome-react)
 
->
+> O React é uma biblioteca para criar interfaces, que foi idealizada pela galera do Facebook e Instagram.
 
 - [References](#references)
+- [Webpack e Babel](#)
+- [Flux](#)
+- [Redux](#)
 
 ### References
 - [[Guide] - Começando com ReactJS - Willian Justen - PT-BR](http://willianjusten.com.br/comecando-com-react/)
@@ -21,8 +24,39 @@
   - [Diferentes Sintaxes](https://www.youtube.com/watch?v=9WKoglv7yhQ&list=PLXFk6ROPeWoAe9BdLdy--VBtDwMP1L6sT&index=9)
 - [[Video] React e Flux - Uma nova abordagem - Cássio Zen - PT-BR ](https://www.youtube.com/watch?v=4FroPIYEsYY)
 - [[Video] Palestra ReactJS - Eu Programador - PT-BR ](https://www.youtube.com/watch?v=gIGB0061wzM&list=PLXFk6ROPeWoAe9BdLdy--VBtDwMP1L6sT&index=9&spfreload=5#t=852.305222)
-- [[Examples] 5 Practical Examples For Learning The React Framework - Martin Angelov - EN](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
-- [[Examples] - React Demos - Ruan YiFeng - EN](https://github.com/ruanyf/react-demos)
+- [[Example] 5 Practical Examples For Learning The React Framework - Martin Angelov - EN](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
+- [[Example] - React Demos - Ruan YiFeng - EN](https://github.com/ruanyf/react-demos)
+- [Video] - ReactJS Tutorial - LearnCode - EN
+  - [Intro & Workspace Setup](https://youtu.be/MhkGQAoc7bc)
+  - [Anatomy of a Component](https://youtu.be/fd2Cayhez58)
+  - [Composing Multiple Components](https://youtu.be/vu_rIMPROoQ)
+  - [State, Props & Data](https://youtu.be/qh3dYM6Keuw)
+  - [Events & Data Changes](https://youtu.be/_D1JGNidMr4)
+  - [React Router & Intro to Single Page Apps](https://youtu.be/1iAG6h9ff5s)
+  - [React Router Params & Queries](https://youtu.be/ZBxMljq9GSE)
+  - [React Inline Styles & Component Arrays](https://youtu.be/XVdwq8W2ZsM)
 - [[] - - ]()
+- [[] - - ]()
+
+### Webpack e Babel
+- [[Guide] Começando com React ES6 e Webpack - Bu Kinoshita - PR-BR ](http://chocoladesign.com/comecando-com-react-es6-e-webpack)
+- [[] - - ]()
+- [[] - - ]()
+
+### Flux
+- [Video] - React Flux Tutorial - LearnCode - EN
+  - [React Flux Tutorial](https://youtu.be/PvjNglsyOHs)
+  - [Flux Store Events (Coming Mon, Feb 22@11CST)](https://youtu.be/bvEC6i7CUyE)
+  - [The Flux Dispatcher (Coming Tues, Feb 23@11CST)](https://youtu.be/MZfCVq5iCBw)
+  - [Flux Actions (Coming Wed, Feb 24@11CST)](https://youtu.be/0yW7C22ooos)
+  - [Async Flux Actions](https://youtu.be/CuYd9uDB0vg)
+  - [React Flux Memory Leaks](https://youtu.be/Fgd2ivSnXXo)
+- [[] - - ]()
+- [[] - - ]()
+
+### Redux
+- [Video] - Redux Tutorial - LearnCode - EN
+  - [How Redux Works](https://www.youtube.com/watch?v=1w-oQ-i1XB8)
+  - [Immutable JS](https://www.youtube.com/watch?v=9M-r8p9ey8U)
 - [[] - - ]()
 - [[] - - ]()
