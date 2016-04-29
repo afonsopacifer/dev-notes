@@ -1,14 +1,41 @@
 # ReactJS
-[Facebook Docs](http://facebook.github.io/react/docs/getting-started.html) / [Awesome React](https://github.com/enaqx/awesome-react)
+[Facebook Docs](http://facebook.github.io/react/docs/getting-started.html) / [Awesome React](https://github.com/enaqx/awesome-react) / [egghead](https://egghead.io/)
 
 > O React é uma biblioteca para criar interfaces, que foi idealizada pela galera do Facebook e Instagram.
 
+- [Notes](#)
+  - [<s>Workspace Setup</s>](#)
+  - [<s>Components</s>](#)
+  - [<s>JSX</s>](#)
+  - [<s>Props</s>](#)
+  - [<s>States</s>](#)
+  - [<s>Events</s>](#)
+  - [<s>Refs</s>](#)
+  - [<s>Keys</s>](#)
+  - [<s>Component Lifecycle</s>](#)
+  - [<s>Inline Styles</s>](#)
+  - [<s>React Router</s>](#)
+  - [<s>Tests</s>](#)
+  - [<s>a11y</s>](#)
+  - [<s>Flux</s>](#)
+  - [<s>Redux</s>](#)
+  - [<s>Best Practices</s>](#)
+  - [<s>RxJS</s>](#)
+  - [<s>Immutable</s>](#)
 - [References](#references)
-- [Webpack e Babel](#)
-- [Flux](#)
-- [Redux](#)
+  - [Webpack e Babel](#)
+  - [Flux](#)
+  - [Redux</s>](#)
 
-### References
+<hr>
+
+## Notes
+
+?????
+
+<hr>
+
+## References
 - [[Guide] - Começando com ReactJS - Willian Justen - PT-BR](http://willianjusten.com.br/comecando-com-react/)
 - [[Guide] - Como usar o ReactJS - Willian Justen - PT-BR](http://willianjusten.com.br/como-usar-o-reactjs/)
 - [[Guide] - O básico da API do ReactJS - Willian Justen - PT-BR](http://willianjusten.com.br/o-basico-da-api-do-reactjs/)
@@ -38,12 +65,13 @@
 - [[] - - ]()
 - [[] - - ]()
 
-### Webpack e Babel
+#### Webpack e Babel
 - [[Guide] Começando com React ES6 e Webpack - Bu Kinoshita - PR-BR ](http://chocoladesign.com/comecando-com-react-es6-e-webpack)
+- [[Guide] React preset - BabelJS - EN](https://babeljs.io/docs/plugins/preset-react/)
 - [[] - - ]()
 - [[] - - ]()
 
-### Flux
+#### Flux
 - [Video] - React Flux Tutorial - LearnCode - EN
   - [React Flux Tutorial](https://youtu.be/PvjNglsyOHs)
   - [Flux Store Events (Coming Mon, Feb 22@11CST)](https://youtu.be/bvEC6i7CUyE)
@@ -54,7 +82,7 @@
 - [[] - - ]()
 - [[] - - ]()
 
-### Redux
+#### Redux
 - [Video] - Redux Tutorial - LearnCode - EN
   - [How Redux Works](https://www.youtube.com/watch?v=1w-oQ-i1XB8)
   - [Immutable JS](https://www.youtube.com/watch?v=9M-r8p9ey8U)
