@@ -24,6 +24,7 @@
   - [<s>Immutable</s>](#)
 - [References](#references)
   - [Webpack e Babel](#)
+  - [ES6](#)
   - [Flux](#)
   - [Redux</s>](#)
 
@@ -65,9 +66,14 @@
 - [[] - - ]()
 - [[] - - ]()
 
-#### Webpack e Babel
+#### Webpack end Babel
 - [[Guide] Começando com React ES6 e Webpack - Bu Kinoshita - PR-BR ](http://chocoladesign.com/comecando-com-react-es6-e-webpack)
 - [[Guide] React preset - BabelJS - EN](https://babeljs.io/docs/plugins/preset-react/)
+- [[] - - ]()
+- [[] - - ]()
+
+#### ES6
+- [[Article] React.createClass versus extends React.Component - Todd Motto - EN](https://toddmotto.com/react-create-class-versus-component/)
 - [[] - - ]()
 - [[] - - ]()
 
