@@ -1,18 +1,18 @@
 # ReactJS
-[Facebook Docs](http://facebook.github.io/react/docs/getting-started.html) / [Awesome React](https://github.com/enaqx/awesome-react) / [egghead](https://egghead.io/)
+[Facebook Docs](http://facebook.github.io/react/docs/getting-started.html) / [Awesome React](https://github.com/enaqx/awesome-react) / [egghead](https://egghead.io/) / [udemy](https://www.udemy.com/react-redux/)
 
 > O React é uma biblioteca para criar interfaces, que foi idealizada pela galera do Facebook e Instagram.
 
-- [Notes](#)
-  - [<s>Workspace Setup</s>](#)
-  - [<s>Components</s>](#)
-  - [<s>JSX</s>](#)
-  - [<s>Props</s>](#)
-  - [<s>States</s>](#)
-  - [<s>Events</s>](#)
-  - [<s>Refs</s>](#)
-  - [<s>Keys</s>](#)
-  - [<s>Component Lifecycle</s>](#)
+- [Notes](#notes)
+  - [Workspace Setup](#workspace-setup)
+  - [Components](#components)
+  - [JSX](#jsx)
+  - [Props](#props)
+  - [States](#states)
+  - [Events](#events)
+  - [Refs](#refs)
+  - [Keys](#keys)
+  - [Component Lifecycle](#component-lifecycle)
   - [<s>Inline Styles</s>](#)
   - [<s>React Router</s>](#)
   - [<s>Tests</s>](#)
@@ -33,6 +33,211 @@
 
 ## Notes
 
+#### Workspace Setup
+[slush-react-start](https://github.com/afonsopacifer/slush-react-start) - Generator for React + ES5 (Browserify) or ES6 (Webpack/Babel)
+
+#### Components
+
+Componente com ES5 e createClass:
+
+```js
+// index.js
+var React    = require('react'),
+    ReactDOM = require('react-dom');
+
+var Layout = React.createClass({
+  render: function(){ // ou apenas render(){
+    return (
+      <h1>Hello</h1>
+    )
+  }
+});
+
+ReactDOM.render(<Layout/>, document.getElementById('app'));
+```
+Componente com ES6 e createClass:
+
+```js
+// index.js
+import React from "react";
+import ReactDom from "react-dom";
+
+const Layout = React.createClass({
+  render(){
+    return (
+      <h1>Hello</h1>
+    )
+  }
+});
+
+ReactDOM.render(<Layout/>, document.getElementById('app'));
+```
+
+Componente com ES6 e Class/Extends:
+
+```js
+// index.js
+import React from "react";
+import ReactDom from "react-dom";
+
+class Layout extends React.Component {
+  render() {
+    return (
+      <h1>Hello</h1>
+    );
+  }
+}
+
+ReactDom.render(<Layout/>, document.getElementById('app'));
+```
+
+Sub Componente com ES6:
+
+```js
+// hello.js
+import React from "react";
+
+class Hello extends React.Component {
+  render() {
+    return (
+      <h1>Hello</h1>
+    );
+  }
+}
+
+export default Hello;
+```
+
+Sub Componente com ES6 / simple function:
+
+```js
+// hello.js
+import React from "react";
+
+function Hello() {
+  return (
+    <h1>Hello</h1>
+  );
+}
+
+export default Hello;
+```
+
+Carregando o subcomponente ES6:
+
+```js
+// index.js
+import React from "react";
+import ReactDom from "react-dom";
+import Hello from "./hello.js";
+
+class Layout extends React.Component {
+  render(){
+    return (
+      <Hello />
+    )
+  }
+});
+
+ReactDOM.render(<Layout/>, document.getElementById('app'));
+```
+
+#### JSX
+
+```js
+```
+
+```js
+```
+
+#### Props
+
+```js
+```
+
+```js
+```
+
+#### States
+
+```js
+```
+
+```js
+```
+
+#### Events
+
+```js
+```
+
+```js
+```
+
+#### Refs
+
+```js
+```
+
+```js
+```
+
+#### Keys
+
+```js
+```
+
+```js
+```
+
+#### Component Lifecycle
+
+```js
+```
+
+```js
+```
+
+#### Inline Styles
+
+```js
+```
+
+```js
+```
+
+#### React Router
+
+```js
+```
+
+```js
+```
+
+#### Tests
+
+```js
+```
+
+```js
+```
+
+#### a11y
+?????
+
+#### Flux
+?????
+
+#### Redux
+?????
+
+#### Best Practices
+?????
+
+#### RxJS
+?????
+
+#### Immutable
 ?????
 
 <hr>
@@ -80,6 +285,10 @@
 
 #### Tests
 - [[Article] How React Components Make UI Testing Easy - Todd Motto - EN](https://www.toptal.com/react/how-react-components-make-ui-testing-easy)
+- [[Article] Testing in ES6 with Mocha and Babel 6 - James K Nelson - EN](http://jamesknelson.com/testing-in-es6-with-mocha-and-babel-6/)
+- [[Article] Testing React on Jsdom - Jake Trent - EN](http://jaketrent.com/post/testing-react-with-jsdom/)
+- [[] - - ]()
+- [[] - - ]()
 
 #### Flux
 - [Video] - React Flux Tutorial - LearnCode - EN
