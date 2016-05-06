@@ -25,6 +25,7 @@
 - [References](#references)
   - [Webpack e Babel](#)
   - [ES6](#)
+  - [Tests](#)
   - [Flux](#)
   - [Redux</s>](#)
 
@@ -73,9 +74,12 @@
 - [[] - - ]()
 
 #### ES6
-- [[Article] React.createClass versus extends React.Component - Todd Motto - EN](https://toddmotto.com/react-create-class-versus-component/)
+- [[Article] React.createClass versus extends React.Component - Swizec Teller - EN](https://toddmotto.com/react-create-class-versus-component/)
 - [[] - - ]()
 - [[] - - ]()
+
+#### Tests
+- [[Article] How React Components Make UI Testing Easy - Todd Motto - EN](https://www.toptal.com/react/how-react-components-make-ui-testing-easy)
 
 #### Flux
 - [Video] - React Flux Tutorial - LearnCode - EN
