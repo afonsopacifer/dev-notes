@@ -287,6 +287,9 @@ ReactDOM.render(<Layout/>, document.getElementById('app'));
 - [[Article] How React Components Make UI Testing Easy - Todd Motto - EN](https://www.toptal.com/react/how-react-components-make-ui-testing-easy)
 - [[Article] Testing in ES6 with Mocha and Babel 6 - James K Nelson - EN](http://jamesknelson.com/testing-in-es6-with-mocha-and-babel-6/)
 - [[Article] Testing React on Jsdom - Jake Trent - EN](http://jaketrent.com/post/testing-react-with-jsdom/)
+- [[Article] Test Driven React Tutorial - Spencer - EN](http://spencerdixon.com/blog/test-driven-react-tutorial.html)
+- [[Article] UI Testing in React - Arunoda Susiripala - EN](https://voice.kadira.io/ui-testing-in-react-74fd90a5d58b#.snpwoe76s)
+- [[] - - ]()
 - [[] - - ]()
 - [[] - - ]()
 
@@ -298,6 +301,10 @@ ReactDOM.render(<Layout/>, document.getElementById('app'));
   - [Flux Actions (Coming Wed, Feb 24@11CST)](https://youtu.be/0yW7C22ooos)
   - [Async Flux Actions](https://youtu.be/CuYd9uDB0vg)
   - [React Flux Memory Leaks](https://youtu.be/Fgd2ivSnXXo)
+- [[Video] Arquitetura com Flux - Eric Yoshi - PT-BR](https://www.youtube.com/watch?v=_nwIM9MFioo&annotation_id=annotation_893873139&feature=iv&src_vid=3tIpOl0lLKo)
+- [[Video] Flux: A simple architecture model to build Client-side apps! - Pedro Nauck - PT-BR]()
+- [[] - - ]()
+- [[] - - ]()
 - [[] - - ]()
 - [[] - - ]()
 
@@ -305,5 +312,11 @@ ReactDOM.render(<Layout/>, document.getElementById('app'));
 - [Video] - Redux Tutorial - LearnCode - EN
   - [How Redux Works](https://www.youtube.com/watch?v=1w-oQ-i1XB8)
   - [Immutable JS](https://www.youtube.com/watch?v=9M-r8p9ey8U)
+- [[Guide] Full-Stack Redux Tutorial - Tero Parviainen - EN](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
+- [[] - - ]()
+- [[] - - ]()
+- [[] - - ]()
+- [[] - - ]()
+- [[] - - ]()
 - [[] - - ]()
 - [[] - - ]()
