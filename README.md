@@ -159,7 +159,7 @@ Este repositório tem o objetivo de reunir de uma forma organizada, anotações 
   - Libraries and Frameworks
     - Bosonic
     - X-Tags
-    - Polymer
+    - [Polymer](source/polymer.md)
 - **Static Generators**
   - Docpad
   - Jekyll
