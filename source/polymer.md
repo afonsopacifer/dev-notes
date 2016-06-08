@@ -16,6 +16,16 @@
       - [Create a property](#create-a-property)
       - [Use a property](#use-a-property)
     - [Events](#events)
+  - Criando Apps
+    - [App Setup](#app-setup)
+    - [App structure](#app-structure)
+    - [Deploy](#deploy)
+      - [Build for deployment](#build-for-deployment)
+      - [Deploy to a server](#deploy-to-a-server)
+  - Mais coisas legais
+    - [Data binding](#data-binding)
+    - [two-way binding](#two-way-binding)
+    - [Extendendo elementos nativos](#)
   - Catalog de elementos
     - [App Elements](#)
     - [Iron Elements](#)
@@ -25,12 +35,6 @@
     - [Neon Elements](#)
     - [Platinum Elements](#)
     - [Molecules](#)
-  - Criando Apps
-    - [App Setup](#app-setup)
-    - [App structure](#app-structure)
-    - [Deploy](#deploy)
-      - [Build for deployment](#build-for-deployment)
-      - [Deploy to a server](#deploy-to-a-server)
 - [References](#references)
 
 <hr>
@@ -210,10 +214,117 @@ Minifica o HTML , JS, e dependências CSS, gera um Service Work com um cache de 
 
 `build/bundled`: Versão no formato "bundler" para HTTP/1
 
-
 #### Deploy to a server
 
 [View on docs](https://www.polymer-project.org/1.0/start/toolbox/deploy)
+
+#### Data binding
+
+my-element.html
+
+```html
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="my-element">
+  <script>
+    Polymer({
+      is: 'my-element',
+      // add a callback to the element's prototype
+      ready: function() {
+        this.textContent = "Hey hey hey"
+      }
+    });
+  </script>
+</dom-module>
+```
+
+#### two-way binding
+
+```bash
+  $ bower install iron-input --save
+```
+
+my-element.html
+
+```html
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/iron-input/iron-input.html">
+
+<dom-module id="my-element">
+  <template>
+    <p>{{owner}}</p>
+    <input is="iron-input" bind-value="{{owner}}">
+  </template>
+
+  <script>
+    Polymer({
+      is: 'my-element',
+      properties: {
+        owner: {
+          type: String,
+          value: "Daniel"
+        }
+      }
+    });
+  </script>
+</dom-module>
+```
+
+#### Extendendo elementos nativos
+
+```js
+MyInput = Polymer({
+
+  is: 'my-input',
+
+  extends: 'input',
+
+  created: function() {
+    this.style.border = '1px solid #000';
+  }
+
+});
+
+var el1 = new MyInput();
+// ou
+var el2 = document.createElement('input', 'my-input');
+```
+
+Para usar:
+```html
+<input is="my-input">
+```
+
+#### Lifecycle
+
+```js
+MyElement = Polymer({
+
+  is: 'my-element',
+
+  created: function() {
+    console.log(this.localName + '#' + this.id + ' was created');
+  },
+
+  ready: function() {
+    console.log(this.localName + '#' + this.id + ' has local DOM initialized');
+  },
+
+  attached: function() {
+    console.log(this.localName + '#' + this.id + ' was attached');
+  },
+
+  detached: function() {
+    console.log(this.localName + '#' + this.id + ' was detached');
+  },
+
+  attributeChanged: function(name, type) {
+    console.log(this.localName + '#' + this.id + ' attribute ' + name +
+      ' was changed to ' + this.getAttribute(name));
+  }
+
+});
+```
 
 ## References
 - [[Video] Polymer and Progressive Web Apps: Building on the modern web - Google I/O 2016 - EN](https://www.youtube.com/watch?v=fFF2Yup2dMM)
