@@ -3,15 +3,35 @@
 
 > <3
 
-- [Notes](#)
-  - [Basic Setup](#)
-    - [Polymer CLI](#)
-    - [Bower](#)
-    - [Polymer and webcomponents.js](#)
-  - [Custom elements](#)
-    - [Create an element](#)
-    - [Use an element](#)
-- [References](#)
+- [Notes](#notes)
+  - [Basic Setup](#basic-setup)
+    - [Polymer CLI](#polymer-cli)
+    - [Bower](#bower)
+    - [Polymer and webcomponents.js](#polymer-and-webcomponents.js)
+  - Criando elementos
+    - [Custom elements](#custom-elements)
+      - [Create an element](#create-an-element)
+      - [Use an element](#use-an-element)
+    - [Properties](#properties)
+      - [Create a property](#create-a-property)
+      - [Use a property](#use-a-property)
+    - [Events](#events)
+  - Catalog de elementos
+    - [App Elements](#)
+    - [Iron Elements](#)
+    - [Paper Elements](#)
+    - [Google Web Components](#)
+    - [Gold Elements](#)
+    - [Neon Elements](#)
+    - [Platinum Elements](#)
+    - [Molecules](#)
+  - Criando Apps
+    - [App Setup](#app-setup)
+    - [App structure](#app-structure)
+    - [Deploy](#deploy)
+      - [Build for deployment](#build-for-deployment)
+      - [Deploy to a server](#deploy-to-a-server)
+- [References](#references)
 
 <hr>
 
@@ -52,6 +72,9 @@ my-element.html
   <template>
     <style>
       /* CSS rules for your element */
+      :host {
+
+      }
     </style>
 
     <!-- local DOM for your element -->
@@ -89,6 +112,108 @@ index.html
 > **Note:** Para o import funcionar de boas é preciso de um server, para isso, podemos usar o polymer-cli: `$ polyserve`
 
 <hr>
+
+### Properties
+
+#### Create a property
+my-element.html
+
+```html
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="my-element">
+  <template>
+    <h1>Hello {{prop}}</h1>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'my-element',
+      properties: {
+        myProp: String
+      }
+    });
+  </script>
+</dom-module>
+
+```
+
+#### Use a property
+index.html
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <link rel="import" href="my-element.html">
+  </head>
+  <body>
+    <my-element myProp="World"></my-element>
+  </body>
+</html>
+```
+
+### Events
+
+```js
+Polymer({
+  is: 'my-element',
+
+  listeners: {
+    'tap': 'showLog'
+  },
+
+  showLog: function() {
+    console.log("hey hey hey");
+  },
+});
+```
+
+### App Setup
+
+```bash
+  $ mkdir my-app
+```
+
+```bash
+  $ cd my-app
+```
+
+```bash
+  $ polymer init app-drawer-template
+```
+
+```bash
+  $ polymer serve --open
+```
+
+### App structure
+
+	.
+	├── index.html
+	├── src/
+	├── bower_components/
+	├── images/
+	└── test/
+
+### Deploy
+
+#### Build for deployment
+
+```bash
+  $ polymer build
+```
+
+Minifica o HTML , JS, e dependências CSS, gera um Service Work com um cache de todas as dependências para que tudo rode off-line.
+
+`build/unbundled`: Versão para HTTP/2
+
+`build/bundled`: Versão no formato "bundler" para HTTP/1
+
+
+#### Deploy to a server
+
+[View on docs](https://www.polymer-project.org/1.0/start/toolbox/deploy)
 
 ## References
 - [[Video] Polymer and Progressive Web Apps: Building on the modern web - Google I/O 2016 - EN](https://www.youtube.com/watch?v=fFF2Yup2dMM)
