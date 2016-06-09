@@ -9,6 +9,7 @@
     - [Bower](#bower)
     - [Polymer and webcomponents.js](#polymer-and-webcomponents.js)
   - Criando elementos
+    - [Elements Setup](#elements-setup)
     - [Custom elements](#custom-elements)
       - [Create an element](#create-an-element)
       - [Use an element](#use-an-element)
@@ -63,6 +64,37 @@
 ```
 
 <hr>
+
+### Elements Setup
+
+```bash
+  $ polymer init
+```
+
+**Element structure**
+
+	.
+	├── index.html
+	├── element-name.html
+	├── bower.json
+	├── README.md
+	├── demo/
+	├── test/
+	└── bower_components/
+
+**Start a serve**
+
+```bash
+  $ polymer serve
+```
+
+**View element docs**
+
+http://localhost:8080/components/element-name/
+
+**View element demo**
+
+http://localhost:8080/components/element-name/demo/
 
 ### Custom elements
 
