@@ -12,12 +12,12 @@
 - [rbenv](https://github.com/rbenv/rbenv) - Groom your app’s Ruby environment.
 
 ### Gems
-- [<s>Sass</s>]() - Sass makes CSS fun again.
-- [<s>Jekyll</s>]() - Transform your plain text into static websites and blogs.
-- [<s>Haml</s>]() - HTML Abstraction Markup Language.
+- [Sass]() - Sass makes CSS fun again.
+- [Jekyll]() - Transform your plain text into static websites and blogs.
+- [Haml]() - HTML Abstraction Markup Language.
 - [Ruby on Rails](ruby-on-rails.md) - A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
-- [<s>Capistrano</s>]() - A remote server automation and deployment tool written in Ruby.
-- [<s>RSpec</s>]() - Behaviour Driven Development for Ruby.
+- [Capistrano]() - A remote server automation and deployment tool written in Ruby.
+- [RSpec]() - Behaviour Driven Development for Ruby.
 
 ### References
 - [[Guide] - Learn Ruby The Hard Way - LCodeTHW - EN](http://learnrubythehardway.org/)

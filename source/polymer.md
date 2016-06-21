@@ -26,16 +26,17 @@
   - Mais coisas legais
     - [Data binding](#data-binding)
     - [two-way binding](#two-way-binding)
-    - [Extendendo elementos nativos](#)
+    - [Extendendo elementos nativos](#extendendo-elementos-nativos)
+    - [Lifecycle](#lifecycle)
   - Catalog de elementos
-    - [App Elements](#)
-    - [Iron Elements](#)
-    - [Paper Elements](#)
-    - [Google Web Components](#)
-    - [Gold Elements](#)
-    - [Neon Elements](#)
-    - [Platinum Elements](#)
-    - [Molecules](#)
+    - <s>App Elements</s>
+    - <s>Iron Elements</s>
+    - <s>Paper Elements</s>
+    - <s>Google Web Components</s>
+    - <s>Gold Elements</s>
+    - <s>Neon Elements</s>
+    - <s>Platinum Elements</s>
+    - <s>Molecules</s>
 - [References](#references)
 
 <hr>
