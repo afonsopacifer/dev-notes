@@ -6,6 +6,12 @@
 - [Notes](#notes)
   - [Workspace Setup](#workspace-setup)
   - [Components](#components)
+    - Componente com ES5 e createClass
+    - Componente com ES6 e createClass
+    - Componente com ES6 e Class/Extends
+    - Sub Componente com ES6
+    - Sub Componente com ES6 / simple function
+    - Carregando o subcomponente ES6
   - [<s>JSX</s>](#jsx)
   - [<s>Props</s>](#props)
   - [<s>States</s>](#states)
