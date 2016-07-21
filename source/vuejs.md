@@ -11,18 +11,18 @@
     - [Render a List](#render-a-list)
     - [Handle User Input](#handle-user-input)
   - [Directives](#directives)
-    - [<s>v-text</s>](#v-text)
-    - [<s>v-html</s>](#v-html)
+    - [v-text](#v-text)
+    - [v-html](#v-html)
     - [<s>v-show</s>](#v-show)
     - [v-if](#v-if)
-    - [<s>v-else</s>](#v-else)
-    - [<s>v-for</s>](#v-for)
-    - [<s>v-on</s>](#v-on)
-    - [<s>v-bind</s>](#v-bind)
+    - [v-else](#v-else)
+    - [v-for](#v-for)
+    - [v-on](#v-on)
+    - [v-bind](#v-bind)
     - [<s>v-model</s>](#v-model)
-    - [<s>v-ref</s>](#v-ref)
-    - [<s>v-el</s>](#v-el)
-    - [<s>v-pre</s>](#v-pre)
+    - [v-ref](#v-ref)
+    - [v-el](#v-el)
+    - [v-pre](#v-pre)
     - [<s>v-cloak</s>](#v-cloak)
   - [Lifecycle](#lifecycle)
     - [created](#created)
@@ -184,8 +184,33 @@ new Vue({
 ### Directives
 
 #### v-text
+
+```html
+<span v-text="msg"></span>
+<!-- same as -->
+<span>{{msg}}</span>
+```
+
+<hr>
+
 #### v-html
+
+```html
+<div v-html="html"></div>
+<!-- same as -->
+<div>{{{html}}}</div>
+```
+
+<hr>
+
 #### v-show
+
+```html
+
+```
+
+<hr>
+
 #### v-if
 
 ```html
@@ -206,14 +231,147 @@ var exampleVM2 = new Vue({
 <hr>
 
 #### v-else
+
+```html
+<div v-if="Math.random() > 0.5">
+  Sorry
+</div>
+<div v-else>
+  Not sorry
+</div>
+```
+
+<hr>
+
 #### v-for
+
+```html
+<div v-for="item in items">
+  {{ item.text }}
+</div>
+```
+
+<hr>
+
 #### v-on
+
+```html
+<!-- method handler -->
+<button v-on:click="doThis"></button>
+
+<!-- inline statement -->
+<button v-on:click="doThat('hello', $event)"></button>
+
+<!-- shorthand -->
+<button @click="doThis"></button>
+
+<!-- stop propagation -->
+<button @click.stop="doThis"></button>
+
+<!-- prevent default -->
+<button @click.prevent="doThis"></button>
+
+<!-- prevent default without expression -->
+<form @submit.prevent></form>
+
+<!-- chain modifiers -->
+<button @click.stop.prevent="doThis"></button>
+
+<!-- key modifier using keyAlias -->
+<input @keyup.enter="onEnter">
+
+<!-- key modifier using keyCode -->
+<input @keyup.13="onEnter">
+```
+
+<hr>
+
 #### v-bind
+
+```html
+<!-- bind an attribute -->
+<img v-bind:src="imageSrc">
+
+<!-- shorthand -->
+<img :src="imageSrc">
+
+<!-- class binding -->
+<div :class="{ red: isRed }"></div>
+<div :class="[classA, classB]"></div>
+<div :class="[classA, { classB: isB, classC: isC }]">
+
+<!-- style binding -->
+<div :style="{ fontSize: size + 'px' }"></div>
+<div :style="[styleObjectA, styleObjectB]"></div>
+
+<!-- binding an object of attributes -->
+<div v-bind="{ id: someProp, 'other-attr': otherProp }"></div>
+
+<!-- prop binding. "prop" must be declared in my-component. -->
+<my-component :prop="someThing"></my-component>
+
+<!-- two-way prop binding -->
+<my-component :prop.sync="someThing"></my-component>
+
+<!-- one-time prop binding -->
+<my-component :prop.once="someThing"></my-component>
+```
+
+<hr>
+
 #### v-model
+
+```html
+
+```
+
+<hr>
+
 #### v-ref
+
+```html
+<comp v-ref:child></comp>
+<comp v-ref:some-child></comp>
+```
+
+```js
+// access from parent:
+this.$refs.child
+this.$refs.someChild
+```
+
+<hr>
+
 #### v-el
+
+```html
+<span v-el:msg>hello</span>
+<span v-el:other-msg>world</span>
+```
+
+```js
+this.$els.msg.textContent // -> "hello"
+this.$els.otherMsg.textContent // -> "world"
+```
+
+<hr>
+
 #### v-pre
+
+```html
+<span v-pre>{{ this will not be compiled }}</span>
+```
+
+<hr>
+
 #### v-cloak
+
+```html
+
+```
+
+<hr>
+
 
 <hr>
 
